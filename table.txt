@@ -1,0 +1,21 @@
+
+テーブル名：banks
+id int AI
+name varchar
+
+
+テーブル名：users
+id int AI
+user_id int
+pass int
+name varchar
+money int
+bank_id
+
+テーブル名:logs
+id int AI
+user_id int
+user_a varchar
+user_b varcher
+money int
+type varchar
