@@ -5,7 +5,7 @@
     <title>暗証番号変更</title>
   </head>
   <body>
-    <form class="" action="password_confirm.php" method="post">
+    <form class="" action="confirm" method="post">
       <div class="">
         現在のパスワード
       </div>

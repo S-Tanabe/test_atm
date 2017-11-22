@@ -6,14 +6,14 @@ use Cake\Event\Event;
 
 class TopsController extends AppController{
 
-    public function beforeFilter(Event $event)
-    {
-        parent::beforeFilter($event);
-        // ユーザーの登録とログアウトを許可します。
-        // allow のリストに "login" アクションを追加しないでください。
-        // そうすると AuthComponent の正常な機能に問題が発生します。
-        $this->Auth->allow(['logout']);
-    }
+    // public function beforeFilter(Event $event)
+    // {
+    //     parent::beforeFilter($event);
+    //     // ユーザーの登録とログアウトを許可します。
+    //     // allow のリストに "login" アクションを追加しないでください。
+    //     // そうすると AuthComponent の正常な機能に問題が発生します。
+    //     // $this->Auth->allow(['logout']);
+    // }
 
   public function initialize(){
     parent::initialize();

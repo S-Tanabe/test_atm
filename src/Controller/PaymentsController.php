@@ -10,7 +10,7 @@ class PaymentsController extends AppController{
   }
 
   public function confirm(){
-
+    var_dump($this->request['data']['money']);
   }
 
   public function complete(){

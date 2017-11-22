@@ -9,12 +9,12 @@
   crossorigin="anonymous"></script>
   </head>
   <body>
-    <button name="button" onclick="location.href='login'">入金</button>
-    <button type="button" onclick="location.href='login'">出金</button>
-    <button type="button" onclick="location.href='transfer'">振り込み</button>
-    <button type="button" onclick="location.href='login'">残高照会</button>
-    <button type="button" onclick="location.href='login'">暗証番号変更</button>
-    <button type="button" onclick="location.href='login'">取り消し</button>
+    <button name="button" onclick="location.href='/Payments/'">入金</button>
+    <button type="button" onclick="location.href='/Draws/'">出金</button>
+    <button type="button" onclick="location.href='/Transfers/'">振り込み</button>
+    <button type="button" onclick="location.href='/Balances/'">残高照会</button>
+    <button type="button" onclick="location.href='/Password/'">暗証番号変更</button>
+    <button type="button" onclick="location.href='/Tops/logout'">取り消し</button>
     <script type="text/javascript">
 
     </script>

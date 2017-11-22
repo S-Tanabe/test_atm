@@ -5,9 +5,9 @@
     <title>入金</title>
   </head>
   <body>
-    <form class="" action="index.html" method="post">
+    <form class="" action="/payments/confirm" method="post">
       入金額
-      <input type="text" name="" value="">
+      <input type="text" name="money" value="">
       <button type="submit" name="button">確認</button>
     </form>
   </body>
